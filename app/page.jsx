@@ -408,7 +408,7 @@ export default function App() {
 
       <section className="sia-panel">
         <div className="sia-eyebrow">① キーワード</div>
-        <div className="sia-search"><Search size={16} style={{ color: "#6E8487" }} /><input value={seed} onChange={e => setSeed(e.target.value)} placeholder="例: 注文住宅 / 脱毛 / 税理士 / SEO" onKeyDown={e => { if (e.key === "Enter") analyze(); }} /></div>
+        <div className="sia-search"><Search size={16} style={{ color: "#6E8487" }} /><input value={seed} onChange={e => setSeed(e.target.value)} placeholder="例: 注文住宅 / 脱毛 / 税理士 / SEO" /></div>
 
         <div className="sia-eyebrow" style={{ marginTop: 16 }}>② 対象範囲</div>
         <div className="sia-seg">
